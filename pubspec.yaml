@@ -1,12 +1,14 @@
 name: pubspec_lock_reader
-description: Read pubspec.lock file
-version: 0.0.1
+description: Reads pubspec.lock file from main directory and transfers the content into readable object.
+version: 1.0.1
+homepage: https://github.com/owczaro/pubspec_lock_reader
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   yaml: ^3.1.0
+  universal_io: ^2.0.1
 
 dev_dependencies:
   effective_dart: ^1.3.1
